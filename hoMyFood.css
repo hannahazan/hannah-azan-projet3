@@ -1,0 +1,113 @@
+body{
+   margin:0px;
+   padding: 0px;
+   font-family: 'Roboto', sans-serif;
+}
+.logo{
+    width: 37%;
+    height: 50%;
+    margin-top: 20px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    height: 50px;
+   
+}
+.géoLocalisation{
+    height: 50px;
+    background-color: #eaeaea;
+    box-shadow: 0 0 5px #888;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.iconGeoLocalisation{
+    height: 15px; 
+    margin-top: 17px;
+    margin-right: 10px;
+}
+.découverte{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding-bottom: 50px;
+}
+.p1découverte{
+    font-weight: bolder;
+    font-size: large;
+    margin-bottom: 0px; 
+    margin-top: 20px;
+}
+.p2découverte{
+    font-weight: lighter;
+    padding-left: 23px; 
+}
+.découverteButton{
+    border-radius: 26px;
+    height: 50px;
+    width: 55%;
+    background: linear-gradient(#FF79DA , #9356DC );
+    padding: 0px;
+    border: none;
+    color:#f7f7f7;
+    font-weight: bold;
+    box-shadow: 5px 5px 15px 1px #888;
+}
+.Fonctionnement{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-between;
+    margin-left: 26px;
+}
+.fonctionnementBox{
+    width: 315px;
+    height: 55px;
+    border-radius: 12px;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 15px 1px #888;
+    
+}
+.stepNumber{
+    width: 20px;
+    height: 20px;
+    background-color: #9356DC;
+    position: absolute;
+    left: 15px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: small;
+    align-items: center;
+}
+.fonctioBox{
+    display: flex;
+    align-items: center;
+   
+}
+.pFonctionnement{
+    font-weight: bold;
+    font-size: large;
+}
+.p1découverte2{
+    margin-top: 0px;
+    font-weight: bolder;
+    font-size: large;
+    margin-bottom: 0px;
+}
+.iconPhone{
+    width: 40px;
+    height: 30px;
+    margin-left: 15px;
+}
+.iconMenu{
+    width: 32px;
+    margin-left: 19px;
+}

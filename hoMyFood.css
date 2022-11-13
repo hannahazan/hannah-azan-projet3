@@ -66,8 +66,8 @@ header{
 }
 .fonctionnementBox{
     width: 315px;
-    height: 55px;
-    border-radius: 12px;
+    height: 65px;
+    border-radius: 24px;
     background-color: #f7f7f7;
     display: flex;
     align-items: center;
@@ -90,6 +90,7 @@ header{
 .fonctioBox{
     display: flex;
     align-items: center;
+    font-weight: bold;
    
 }
 .pFonctionnement{
@@ -106,8 +107,47 @@ header{
     width: 40px;
     height: 30px;
     margin-left: 15px;
+    margin-right: 21px;
 }
 .iconMenu{
     width: 32px;
     margin-left: 19px;
+    margin-right: 25px;
+}
+.restaurantsContainer{
+    background-color: #f7f7f7;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+}
+.p1restaurantsContainer{
+    font-weight: bold;
+    font-size: large;
+    margin-left: 16px;
+}
+.cardContainer{
+    background-color: white;
+    height: 230px;
+    width: 320px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+}
+.imageCard{
+    height: 148px;
+    border-radius: 24px 24px 0px 0px;
+}
+.localisationRestaurantCard{
+    margin:0px;
+    margin-left: 10px;
+    font-weight: lighter;
+}
+.p1cardRestaurantName{
+    margin:0px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight: bold;
 }

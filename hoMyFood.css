@@ -50,12 +50,15 @@ header{
     border-radius: 26px;
     height: 50px;
     width: 55%;
-    background: linear-gradient(#FF79DA , #9356DC );
+    background: linear-gradient(rgba(255,121,218) ,rgba(147,86,220) );
     padding: 0px;
     border: none;
     color:#f7f7f7;
     font-weight: bold;
     box-shadow: 5px 5px 15px 1px #888;
+}
+.découverteButton:hover{
+    background: linear-gradient(rgba(255,121,218,0.6) ,rgba(147,86,220,0.6) );
 }
 .Fonctionnement{
     display: flex;
@@ -127,17 +130,18 @@ header{
 }
 .cardContainer{
     background-color: white;
-    height: 230px;
+    height: 220px;
     width: 320px;
     margin-left: 25px;
     margin-bottom: 10px;
     border-radius: 22px;
     display: flex;
     flex-direction: column;
+    box-shadow: 1px 1px 15px 1px #888
 }
 .imageCard{
     height: 148px;
-    border-radius: 24px 24px 0px 0px;
+    border-radius: 22px 22px 0px 0px;
 }
 .localisationRestaurantCard{
     margin:0px;
@@ -146,8 +150,37 @@ header{
 }
 .p1cardRestaurantName{
     margin:0px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     margin-top: 15px;
     margin-left: 10px;
     font-weight: bold;
+}
+.cardLike{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.heartIcon{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    background-image: url("./images/icons/heartempty.png");
+    background-size: 50px 50px;
+    animation-duration: 3s;
+   
+}
+.heartIcon:hover{
+   animation-name:tofill  ;
+ 
+}
+@keyframes tofill {
+   from{
+       background-image: url("./images/icons/hearthalffield3.png");
+    }
+    to{
+        background-image: url("./images/icons/heartField.png");
+    }
+   
 }

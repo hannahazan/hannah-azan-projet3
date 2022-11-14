@@ -12,8 +12,7 @@ header{
     display: flex;
     justify-content: center;
     height: 10%;
-    height: 50px;
-   
+    height: 50px;   
 }
 .géoLocalisation{
     height: 50px;
@@ -59,6 +58,7 @@ header{
 }
 .découverteButton:hover{
     background: linear-gradient(rgba(255,121,218,0.6) ,rgba(147,86,220,0.6) );
+    box-shadow: 5px 5px 25px 2px #888;
 }
 .Fonctionnement{
     display: flex;
@@ -183,4 +183,41 @@ header{
         background-image: url("./images/icons/heartField.png");
     }
    
+}
+footer{
+    background-color: rgba(53,53,53);
+    color: #ffffff;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    margin-top: 45px;
+}
+.containerPartenariat{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 25px;
+}
+.iconFooter{
+    width: 15px;
+    height: 15px;
+}
+.pPartenaire{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 15px;                  
+}
+.pProposer{
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+.pFooter{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.footerTitle{
+    margin-bottom: 0px;
+    font-family: 'Shrikhand', cursive;
+    font-size: large;
 }

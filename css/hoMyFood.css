@@ -173,6 +173,7 @@ header{
 }
 .heartIcon:hover{
    animation-name:tofill  ;
+   animation-fill-mode: forwards;
  
 }
 @keyframes tofill {

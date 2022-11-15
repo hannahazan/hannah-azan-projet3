@@ -200,14 +200,15 @@ footer{
     align-items: center;
 }
 .CheckBox{
-    width: 40%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
     border-radius: 100%;
     background-color: #f7f7f7;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
+    animation-duration: 1s;  
 }
 .iconCheck{
     width: 70%;
@@ -217,6 +218,7 @@ footer{
     animation-name: essaie;
     animation-fill-mode: forwards;
 }
+
 .platContainer2:hover .cocheMenu{
     animation-name: essaie;
     animation-fill-mode: forwards;
@@ -231,6 +233,23 @@ footer{
     }
    to{
         width: 80px;
+     }
+}
+.platContainer:hover .CheckBox{
+    animation-name: rotate;
+    animation-fill-mode: forwards;
+}
+.platContainer2:hover .CheckBox{
+    animation-name: rotate;
+    animation-fill-mode: forwards;
+}
+.platContainer3:hover .CheckBox{
+    animation-name: rotate;
+    animation-fill-mode: forwards;
+}
+@keyframes rotate {
+     10%{
+        transform: rotate(1turn);
      }
 }
 .pPCbold{
@@ -387,6 +406,18 @@ footer{
     height:fit-content;
     transform: translate(0px,2px);
 }
+.platContainerPlat:hover .CheckBox{
+    animation-name: rotate;
+    animation-fill-mode: forwards;
+}
+.platContainerPlat2:hover .CheckBox{
+    animation-name: rotate;
+    animation-fill-mode: forwards;
+}
+.platContainerPlat3:hover .CheckBox{
+    animation-name: rotate;
+    animation-fill-mode: forwards;
+}
 
 
 
@@ -465,5 +496,17 @@ footer{
 }
 .platContainerDessert3:hover .cocheMenu{
     animation-name: essaie;
+    animation-fill-mode: forwards;
+}
+.platContainerDessert:hover .CheckBox{
+    animation-name: rotate;
+    animation-fill-mode: forwards;
+}
+.platContainerDessert2:hover .CheckBox{
+    animation-name: rotate;
+    animation-fill-mode: forwards;
+}
+.platContainerDessert3:hover .CheckBox{
+    animation-name: rotate;
     animation-fill-mode: forwards;
 }

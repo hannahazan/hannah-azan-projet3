@@ -137,7 +137,7 @@ header{
     border-radius: 22px;
     display: flex;
     flex-direction: column;
-    box-shadow: 1px 1px 15px 1px #888
+    box-shadow: 1px 1px 10px 1px #888
 }
 .imageCard{
     height: 148px;
@@ -166,7 +166,7 @@ header{
     width: 50px;
     height: 50px;
     margin-right: 15px;
-    background-image: url("./images/icons/heartempty.png");
+    background-image: url("../images/icons/heartempty.png");
     background-size: 50px 50px;
     animation-duration: 3s;
    
@@ -177,10 +177,10 @@ header{
 }
 @keyframes tofill {
    from{
-       background-image: url("./images/icons/hearthalffield3.png");
+       background-image: url("../images/icons/hearthalffield3.png");
     }
     to{
-        background-image: url("./images/icons/heartField.png");
+        background-image: url("../images/icons/heartField.png");
     }
    
 }

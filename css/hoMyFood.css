@@ -66,6 +66,7 @@ header{
     height: 300px;
     justify-content: space-between;
     margin-left: 26px;
+    margin-bottom: 20px;
 }
 .fonctionnementBox{
     width: 315px;
@@ -121,7 +122,7 @@ header{
 }
 .restaurantsContainer{
     background-color: #f7f7f7;
-    margin-top: 65px;
+    /*margin-top: 65px;*/
     display: flex;
     flex-direction: column;
 }
@@ -322,16 +323,16 @@ footer{
  }
 
  /* css responsive*/
- @media screen and (min-width: 768px) and (max-width:1024px) {
+ @media screen and (min-width: 768px) and (max-width:1080px) {
     .Fonctionnement {
         display: flex;
-        height: 300px;
+        height: 120px;
         justify-content: space-between;
         margin-left: 14px;
         align-items: flex-start;
         flex-direction: row;
-        height: 50px;
         margin-right: 26px;
+        margin-bottom: 0px;
       }
     .fonctioBox {
         display: flex;
@@ -367,12 +368,67 @@ footer{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        margin-left: 21px;
-      }
-      .p1restaurantsContainer{
-        margin-left: 26px;
+        margin-left: 45px;
+        margin-right: 45px;
+        justify-content:space-around
       }
       .cardContainer{
-        width: 43%;
+        margin-left: 0px;
       }
+     
+    }
+    @media screen and (min-width:1081px) {
+        .fonctioBox {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            width: 333px;
+            height: 65px;
+          }
+          .Fonctionnement {
+            display: flex;
+            height: 120px;
+            justify-content: space-between;
+            margin-left: 14px;
+            align-items: flex-start;
+            flex-direction: row;
+            margin-right: 26px;
+            margin-bottom: 0px;
+          }
+          .stepNumber {
+            width: 20px;
+            height: 20px;
+            background-color: #9356DC;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            color: white;
+            font-size: small;
+            align-items: center;
+            right: 169px;
+            position: relative;
+            left: 9px;
+          }
+        .fonctionnementBox {
+            height: 65px;
+            border-radius: 24px;
+            background-color: #f7f7f7;
+            display: flex;
+            align-items: center;
+            box-shadow: 1px 1px 15px 1px #888;
+            width: 90%;
+          }
+          .restaurantContainer2 {
+            background-color: #f7f7f7;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin-left: 45px;
+            margin-right: 45px;
+            justify-content: space-between;
+          }
+          .cardContainer{
+            margin-left: 2px;
+          }
+         
     }

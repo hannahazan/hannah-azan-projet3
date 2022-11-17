@@ -106,7 +106,7 @@ footer{
     box-shadow: 5px 5px 15px 1px #888;
     animation-name:button ;
     animation-duration: 1s;
-    animation-delay:4.5s ;
+    animation-delay:5s ;
     transform: translate(-3000px,0px);
     animation-fill-mode: forwards;
 }
@@ -167,7 +167,7 @@ footer{
  }
 /*css pour les entrées*/
 .platContainer{
-    width: 350px ;
+    width: 353px ;
     height: 60px;
     background-color:white;
     margin-top: 40px;
@@ -184,7 +184,7 @@ footer{
 }
 
 .platContainer2{
-    width: 350px ;
+    width: 353px ;
     height: 60px;
     background-color:white;
     margin-top: 25px;
@@ -201,7 +201,7 @@ footer{
     align-items: flex-end;
 }
 .platContainer3{
-    width: 350px ;
+    width: 353px ;
     height: 60px;
     background-color:white;
     margin-top: 25px;
@@ -218,14 +218,14 @@ footer{
     align-items: flex-end;
 }
 .platContainer4{
-    width: 350px ;
+    width: 353px ;
     height: 60px;
     background-color:white;
     margin-top: 25px;
     margin-left: 13px;
     animation-name: appear;
     animation-duration: 1s;
-    animation-delay:1s;
+    animation-delay:1.5s;
     opacity: 0;
     animation-fill-mode: forwards;
     border-radius: 15px;
@@ -373,14 +373,14 @@ footer{
 /* css pour les plats*/
 
 .platContainerPlat{
-    width: 350px ;
+    width: 353px ;
     height: 60px;
     background-color:white;
     margin-top: 40px;
     margin-left: 13px;
     animation-name: appear;
     animation-duration: 1s;
-    animation-delay:1.5s;
+    animation-delay:2s;
     animation-fill-mode: forwards;
     border-radius: 15px;
     box-shadow: 1px 1px 10px 0.5px #888;
@@ -391,14 +391,14 @@ footer{
 }
 
 .platContainerPlat2{
-    width: 350px ;
+    width: 353px ;
     height: 60px;
     background-color:white;
     margin-top: 25px;
     margin-left: 13px;
     animation-name: appear;
     animation-duration: 1s;
-    animation-delay:2s;
+    animation-delay:2.5s;
     opacity: 0;
     animation-fill-mode: forwards;
     border-radius: 15px;
@@ -408,14 +408,14 @@ footer{
     align-items: flex-end;
 }
 .platContainerPlat3{
-    width: 350px ;
+    width: 353px ;
     height: 60px;
     background-color:white;
     margin-top: 25px;
     margin-left: 13px;
     animation-name: appear;
     animation-duration: 1s;
-    animation-delay:2.50s;
+    animation-delay:3s;
     opacity: 0;
     animation-fill-mode: forwards;
     border-radius: 15px;
@@ -497,14 +497,14 @@ footer{
 /*css dessert*/
 
 .platContainerDessert{
-    width: 350px ;
+    width: 353px ;
     height: 60px;
     background-color:white;
     margin-top: 40px;
     margin-left: 13px;
     animation-name: appear;
     animation-duration: 1s;
-    animation-delay:3s;
+    animation-delay:3.5s;
     animation-fill-mode: forwards;
     border-radius: 15px;
     box-shadow: 1px 1px 10px 0.5px #888;
@@ -515,14 +515,14 @@ footer{
 }
 
 .platContainerDessert2{
-    width: 350px ;
+    width: 353px ;
     height: 60px;
     background-color:white;
     margin-top: 25px;
     margin-left: 13px;
     animation-name: appear;
     animation-duration: 1s;
-    animation-delay:3.5s;
+    animation-delay:4s;
     opacity: 0;
     animation-fill-mode: forwards;
     border-radius: 15px;
@@ -532,14 +532,14 @@ footer{
     align-items: flex-end;
 }
 .platContainerDessert3{
-    width: 350px ;
+    width: 353px ;
     height: 60px;
     background-color:white;
     margin-top: 25px;
     margin-left: 13px;
     animation-name: appear;
     animation-duration: 1s;
-    animation-delay:4s;
+    animation-delay:4.5s;
     opacity: 0;
     animation-fill-mode: forwards;
     border-radius: 15px;
@@ -558,6 +558,16 @@ footer{
         opacity: 1;
         transform: translate(0px,-20px)
     }
+}
+.platContainerDessert:hover .pPCnormalLongPlat{
+    text-indent: -1000px;
+    height: 0px;
+    width: 0px;
+}
+.platContainerDessert:hover .pPCnormalLongPlatSubstitus {
+    text-indent: 0px;
+    height:fit-content;
+    transform: translate(0px,2px);
 }
 .platContainerDessert:hover .cocheMenu{
     animation-name: essaie;

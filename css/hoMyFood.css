@@ -122,7 +122,6 @@ header{
 }
 .restaurantsContainer{
     background-color: #f7f7f7;
-    /*margin-top: 65px;*/
     display: flex;
     flex-direction: column;
 }

@@ -374,6 +374,13 @@ footer{
       .cardContainer{
         margin-left: 0px;
       }
+      .logo{
+        width: 300px;
+        height: 51px;
+    }
+    header{
+        height: 75px;
+    }
      
     }
     @media screen and (min-width:1081px) {
@@ -429,5 +436,12 @@ footer{
           .cardContainer{
             margin-left: 2px;
           }
-         
+          .logo{
+            width: 300px;
+            height: 51px;
+        }
+        header{
+            height: 75px;
+        }
+          
     }

@@ -70,7 +70,7 @@ footer{
     font-size: large;
 }
 .menuPicture{
-    background-image: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
     background-size: cover;
     height: 200px;
     position: absolute; 
@@ -256,6 +256,17 @@ footer{
     height: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.platContainer3:hover .pPCnormalLongPlat{
+    text-indent: -9999px;
+    height: 0px;
+    width: 0px;
+}
+.platContainer3:hover .pPCnormalLongPlatSubstitus {
+    text-indent: 0px;
+    height:fit-content;
+    transform: translate(0px,2px);
 }
 
 .cocheMenu{

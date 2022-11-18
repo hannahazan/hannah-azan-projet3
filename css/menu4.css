@@ -70,7 +70,7 @@ footer{
     font-size: large;
 }
 .menuPicture{
-    background-image: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    background-image: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
     background-size: cover;
     height: 200px;
     position: absolute; 
@@ -257,6 +257,16 @@ footer{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.platContainer2:hover .pPCnormalLongPlat{
+    text-indent: -9999px;
+    height: 0px;
+    width: 0px;
+}
+.platContainer2:hover .pPCnormalLongPlatSubstitus {
+    text-indent: 0px;
+    height:fit-content;
+    transform: translate(0px,2px);
+}
 
 .cocheMenu{
     width: 0px;
@@ -425,6 +435,30 @@ footer{
         transform: translate(0px,-20px)
     }
 }
+.pPCboldLong{
+    margin-bottom: 0px;
+    margin-top: 3px;
+    width: 100%;
+    font-weight: bold;
+   
+}
+.pPCboldLongSubstitus{
+    text-indent: -9999px;
+    height: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.platContainerPlat:hover .pPCboldLong{
+    text-indent: -9999px;
+    height: 0px;
+    width: 0px;
+}
+.platContainerPlat:hover .pPCboldLongSubstitus{
+    text-indent: 0px;
+    height:fit-content;
+    transform: translate(0px,2px);
+}
 .platContainerPlat:hover .cocheMenu{
     animation-name: essaie;
     animation-fill-mode: forwards;
@@ -438,37 +472,6 @@ footer{
     animation-fill-mode: forwards;
 }
 
-
-.platContainerPlat:hover .pPCnormalLongPlat {
-    text-indent: -9999px;
-    height: 0px;
-    width: 0px;
-}
-.platContainerPlat:hover .pPCnormalLongPlatSubstitus {
-    text-indent: 0px;
-    height:fit-content;
-    transform: translate(0px,2px);
-}
-.platContainerPlat2:hover .pPCnormalLongPlat {
-    text-indent: -9999px;
-    height: 0px;
-    width: 0px;
-}
-.platContainerPlat2:hover .pPCnormalLongPlatSubstitus {
-    text-indent: 0px;
-    height:fit-content;
-    transform: translate(0px,2px);
-}
-.platContainerPlat3:hover .pPCnormalLongPlat {
-    text-indent: -9999px;
-    height: 0px;
-    width: 0px;
-}
-.platContainerPlat3:hover .pPCnormalLongPlatSubstitus {
-    text-indent: 0px;
-    height:fit-content;
-    transform: translate(0px,2px);
-}
 .platContainerPlat:hover .CheckBox{
     animation-name: rotate;
     animation-fill-mode: forwards;

@@ -70,7 +70,7 @@ footer{
     font-size: large;
 }
 .menuPicture{
-    background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    background-image: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
     background-size: cover;
     height: 200px;
     position: absolute; 
@@ -560,7 +560,7 @@ footer{
     }
 }
 .platContainerDessert:hover .pPCnormalLongPlat{
-    text-indent: -1000px;
+    text-indent: -9999px;
     height: 0px;
     width: 0px;
 }
@@ -598,7 +598,22 @@ footer{
     .tousLesPlats{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
+    }
+    .likecontainer{
+        width: 328.25px;
+    }
+    .menuContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header{
+        justify-content: center;
+    }
+    .logo{
+        width: 300px;
+        height: 51px;
     }
 }

@@ -125,7 +125,7 @@ footer{
 }
 .pMenu{
     font-family:'Shrikhand', cursive;
-    font-size: large;
+    font-size: x-large;
 }
 .likecontainer{
     display: flex;
@@ -142,7 +142,7 @@ footer{
     background-size: 45px 45px;
     animation-duration: 3s;
     border-radius: 0px 30px 0px 0px;
-   
+    margin-top: 20px;  
 }
 .heartIcon:hover{
    animation-name:tofill  ;
@@ -451,7 +451,7 @@ footer{
 
 
 .platContainerPlat:hover .pPCnormalLongPlat {
-    text-indent: -1000px;
+    text-indent: -9999px;
     height: 0px;
     width: 0px;
 }
@@ -461,7 +461,7 @@ footer{
     transform: translate(0px,2px);
 }
 .platContainerPlat2:hover .pPCnormalLongPlat {
-    text-indent: -1000px;
+    text-indent: -9999px;
     height: 0px;
     width: 0px;
 }
@@ -471,7 +471,7 @@ footer{
     transform: translate(0px,2px);
 }
 .platContainerPlat3:hover .pPCnormalLongPlat {
-    text-indent: -1000px;
+    text-indent: -9999px;
     height: 0px;
     width: 0px;
 }
@@ -602,8 +602,17 @@ footer{
         justify-content: space-around;
         flex-wrap: wrap;
     }
+    .pMenu{
+        font-family:'Shrikhand', cursive;
+        font-size: x-large;
+        margin-top: 40px;
+    }
     .likecontainer{
         width: 328.25px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
     }
     .menuContainer{
         display: flex;
@@ -616,5 +625,8 @@ footer{
     .logo{
         width: 300px;
         height: 51px;
+    }
+    .heartIcon{
+        margin-top: 0px;
     }
 }

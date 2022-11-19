@@ -63,7 +63,8 @@ footer{
 .pFooter{
     margin-top: 5px;
     margin-bottom: 0px;
-    color:white
+    color:white;
+    text-decoration: none;
 }
 .footerTitle{
     margin-bottom: 0px;
@@ -172,7 +173,8 @@ footer{
     height: 60px;
     background-color:white;
     margin-top: 40px;
-    margin-left: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
     animation-name: appear;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -189,7 +191,8 @@ footer{
     height: 60px;
     background-color:white;
     margin-top: 25px;
-    margin-left: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
     animation-name: appear;
     animation-duration: 1s;
     animation-delay:0.5s;
@@ -206,7 +209,8 @@ footer{
     height: 60px;
     background-color:white;
     margin-top: 25px;
-    margin-left: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
     animation-name: appear;
     animation-duration: 1s;
     animation-delay:1s;
@@ -223,7 +227,8 @@ footer{
     height: 60px;
     background-color:white;
     margin-top: 25px;
-    margin-left: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
     animation-name: appear;
     animation-duration: 1s;
     animation-delay:1.5s;
@@ -331,6 +336,10 @@ footer{
     animation-name: rotate;
     animation-fill-mode: forwards;
 }
+.platContainer4:hover .CheckBox{
+    animation-name: rotate;
+    animation-fill-mode: forwards;
+}
 @keyframes rotate {
      10%{
         transform: rotate(1turn);
@@ -378,7 +387,8 @@ footer{
     height: 60px;
     background-color:white;
     margin-top: 40px;
-    margin-left: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
     animation-name: appear;
     animation-duration: 1s;
     animation-delay:2s;
@@ -396,7 +406,8 @@ footer{
     height: 60px;
     background-color:white;
     margin-top: 25px;
-    margin-left: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
     animation-name: appear;
     animation-duration: 1s;
     animation-delay:2.5s;
@@ -413,7 +424,8 @@ footer{
     height: 60px;
     background-color:white;
     margin-top: 25px;
-    margin-left: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
     animation-name: appear;
     animation-duration: 1s;
     animation-delay:3s;
@@ -502,7 +514,8 @@ footer{
     height: 60px;
     background-color:white;
     margin-top: 40px;
-    margin-left: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
     animation-name: appear;
     animation-duration: 1s;
     animation-delay:3.5s;
@@ -520,7 +533,8 @@ footer{
     height: 60px;
     background-color:white;
     margin-top: 25px;
-    margin-left: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
     animation-name: appear;
     animation-duration: 1s;
     animation-delay:4s;
@@ -537,7 +551,8 @@ footer{
     height: 60px;
     background-color:white;
     margin-top: 25px;
-    margin-left: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
     animation-name: appear;
     animation-duration: 1s;
     animation-delay:4.5s;
